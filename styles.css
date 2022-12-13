@@ -1,0 +1,9 @@
+body {
+	background-color: ivory;
+	padding: 2.5%;
+}
+.topnav {
+	background-color: lightslategray;
+	color: white;
+}
+.topnav a{color: white;}
