@@ -1,29 +1,39 @@
-body {
-	background-color: dimgrey;
-}
+/*body {
+	background-color: #f8f9fa;
+}*/
 .main{
 	padding: 1%;
+	background-color: #f8f9fa
 }
 .topnav {
 	color: white;
 	/*padding-bottom: 1%;*/
 	display: flex;
 	align-content: center;
+	background-color: #212529;
+	filter: drop-shadow(0 0 5px #333);
+	/*box-shadow: 0 0 30px #333;*/
+
 }
 .topnav a{
 	color: white;
 	padding: 1%;
 	text-transform: uppercase;
 }
+.topnav a:hover {
+	color: white;
+	padding: 1%;
+	text-transform: uppercase;
+	background-color: #f8f9fa2f;
+}
 .videos {
 	padding-top: 2%;
 }
-h1 {color: white;}
+h1 {text-transform: uppercase;}
 #carouselExampleControls {
 	width: 75%;
 	display: flex;
 	justify-content: center;
-	align-content: center;
 	margin: auto;
 }
 .carousel-control-prev, .carousel-control-next{
@@ -31,6 +41,6 @@ h1 {color: white;}
   	height: 5vw;
   	margin: auto;
 }
-p {
+/*p {
 	color: whitesmoke;
-}
+}*/
