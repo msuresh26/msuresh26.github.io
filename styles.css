@@ -1,5 +1,5 @@
 body {
-	background-color: ivory;
+	background-color: black;
 	padding: 2.5%;
 }
 .topnav {
@@ -7,3 +7,13 @@ body {
 	color: white;
 }
 .topnav a{color: white;}
+.videos {
+	padding-top: 2%;
+}
+h1 {color: white;}
+#carouselExampleControls {
+	/*width: 75%;*/
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
