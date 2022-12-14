@@ -23,7 +23,13 @@ h1 {color: white;}
 	width: 75%;
 	display: flex;
 	justify-content: center;
+	align-content: center;
 	margin: auto;
+}
+.carousel-control-prev, .carousel-control-next{
+	width: 5vw;
+  	height: 5vw;
+  	margin: auto;
 }
 p {
 	color: whitesmoke;
