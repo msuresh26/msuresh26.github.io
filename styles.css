@@ -12,7 +12,8 @@ body {
 }
 h1 {color: white;}
 #carouselExampleControls {
-	/*width: 75%;*/
+	padding-top: 10%;
+	width: 75%;
 	display: flex;
 	justify-content: center;
 	margin: auto;
