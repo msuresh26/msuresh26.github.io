@@ -1,6 +1,6 @@
-/*body {
+body {
 	background-color: #f8f9fa;
-}*/
+}
 .main{
 	padding: 1%;
 	background-color: #f8f9fa
@@ -12,6 +12,7 @@
 	align-content: center;
 	background-color: #212529;
 	filter: drop-shadow(0 0 5px #333);
+	letter-spacing: 5px;
 	/*box-shadow: 0 0 30px #333;*/
 
 }
@@ -29,7 +30,15 @@
 .videos {
 	padding-top: 2%;
 }
-h1 {text-transform: uppercase;}
+h1 {
+	text-transform: uppercase; letter-spacing: 5px;
+}
+#video-header {
+	font-size: 10vw;
+	text-align: center;
+}
+
+/*for the slideshow*/
 #carouselExampleControls {
 	width: 75%;
 	display: flex;
@@ -41,6 +50,16 @@ h1 {text-transform: uppercase;}
   	height: 5vw;
   	margin: auto;
 }
-/*p {
-	color: whitesmoke;
-}*/
+/*end slideshow styling*/
+/*start styling for media menu thumbnails*/
+.overlay {
+	/*position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.1;
+	transition: .5s ease;
+*/}
