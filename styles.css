@@ -1,9 +1,8 @@
 body {
 	background-color: black;
-	padding: 2.5%;
+	padding: 1%;
 }
 .topnav {
-	background-color: lightslategray;
 	color: white;
 }
 .topnav a{color: white;}
@@ -12,9 +11,11 @@ body {
 }
 h1 {color: white;}
 #carouselExampleControls {
-	padding-top: 10%;
 	width: 75%;
 	display: flex;
 	justify-content: center;
 	margin: auto;
+}
+p {
+	color: whitesmoke;
 }
