@@ -56,6 +56,9 @@ h1 {
 }
 /*end slideshow styling*/
 /*start styling for media menu thumbnails*/
+.mediaThumbnail:hover {
+	
+}
 .overlay {
 	/*position: absolute;
 	top: 0;
