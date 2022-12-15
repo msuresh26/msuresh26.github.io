@@ -16,16 +16,29 @@
 	  	<a class="nav-link" href="media.html">Media</a>
 	  	<a class="nav-link" href="about.html">About</a>
 	</div>
-	<div class="main row g-0 bg-light" style="padding: 0; height: 100vh;margin-top: 0;">
-		<div class="col-lg-6 mediaThumbnail">
-			<a href="media.html"><img src="img/videoThumbnail.JPG" style="width: 100%; height: 100%; object-fit: cover;"></a>
-			<div class="overlay">
-			</div>
-		</div>
-		<div class="col-lg-6 mediaThumbnail">
-			<img src="img/photosThumbnail.JPG" style="width: 100%; height: 100%; object-fit: cover;">
-			<div class="overlay">
-			</div>
+	<div class="main bg-light">
+		<h1 id="video-header">Photos</h1>
+		<!-- Video Carousel -->
+		<div id="carouselExampleControls" class="row carousel slide" data-interval="false">
+		  	<div class="carousel-inner">
+		    	<div class="carousel-item ratio ratio-16x9 active">
+		      		<iframe src="https://www.youtube.com/embed/ek-_m6YjyPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		    	</div>
+		    	<div class="carousel-item ratio ratio-16x9">
+		      		<iframe src="https://www.youtube.com/embed/opAx5WJIdes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		    	</div>
+		    	<div class="carousel-item ratio ratio-16x9">
+		      		<iframe src="https://www.youtube.com/embed/reP1D0wJZoo" class="d-block w-100" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+		    </div>
+	    	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+		   		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		   		<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+		   		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		   		<span class="visually-hidden">Next</span>
+			</button>			
 		</div>
 	</div>
 	

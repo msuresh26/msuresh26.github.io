@@ -17,6 +17,7 @@ body {
 	background-color: #212529;
 	filter: drop-shadow(0 0 5px #333);
 	letter-spacing: 5px;
+	z-index: 2;
 	/*box-shadow: 0 0 30px #333;*/
 
 }
@@ -56,17 +57,41 @@ h1 {
 }
 /*end slideshow styling*/
 /*start styling for media menu thumbnails*/
+.mediaThumbnail {
+	filter: brightness(50%);
+	opacity: 1;
+	filter: sepia(1);
+	position: relative;
+}
 .mediaThumbnail:hover {
 	
+	filter: brightness(100%);
+	filter: sepia(0);
 }
 .overlay {
-	/*position: absolute;
+	position: absolute;
 	top: 0;
 	bottom: 0;
 	right: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
-	opacity: 0.1;
-	transition: .5s ease;
-*/}
+	opacity: 0.8;
+	transition: 2s ease;
+	background-color: #212529;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+.overlay:hover {
+	opacity: 0;
+}
+.text {
+	margin: auto;
+  	text-align: center;
+  	line-height: 100%;
+  	color: white;
+  	font-size: 10vh;
+  	letter-spacing: 15px;
+  	text-transform: uppercase;
+}
