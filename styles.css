@@ -2,10 +2,14 @@ body {
 	background-color: #f8f9fa;
 }
 .main{
+	margin-top: 7vh;
 	padding: 1%;
 	background-color: #f8f9fa
 }
 .topnav {
+	position: fixed;
+	top: 0;
+	width: 100vw;
 	color: white;
 	/*padding-bottom: 1%;*/
 	display: flex;
