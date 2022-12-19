@@ -65,7 +65,7 @@ h1 {
 	text-transform: uppercase; letter-spacing: 5px;
 }
 #video-header, #photo-header{
-	font-size: 10vw;
+	font-size: 8vw;
 	text-align: center;
 	color: var(--bg_dark);
 	/*background-color: var(--bg_dark);*/
@@ -88,11 +88,36 @@ h1 {
 	margin: auto;
 }
 .carousel-control-prev, .carousel-control-next{
-		width: 5vw;
-  	height: 5vw;
-  	margin: auto;
+	width: 5vw;
+  height: 5vw;
+  margin: auto;
 }
 /*end slideshow styling*/
+
+/*styling for photos page*/
+#photo-main .row{
+}
+#photo-main img{
+	height: 50vw;
+	object-fit: cover;
+	padding: 10%;
+	display: block;
+	border-radius: 30px 30px 30px 30px;
+}
+@media (max-width: 576px) {
+	#photo-main img {
+		height: 100vw;
+	}
+}
+@media (min-width: 992px){
+	#photo-main img{
+		height: 35vw;
+	}	
+}
+#gallery-item {
+	/*padding:0% 1% 5%;*/
+}
+/*end styling for photos page*/
 
 /*start styling for media menu thumbnails*/
 .mediaThumbnail {
@@ -102,7 +127,6 @@ h1 {
 	position: relative;
 }
 .mediaThumbnail:hover {
-	
 	filter: brightness(100%);
 	/*filter: sepia(0);*/
 }
