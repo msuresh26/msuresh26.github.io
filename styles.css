@@ -18,6 +18,9 @@ body {
 	overflow-x: hidden;
 	/*should probably delete this above ^^*/
 }
+h1 {
+	text-transform: uppercase; letter-spacing: 5px;
+}
 .main{
 	flex: 1;
 	/*margin-top: 7vh;*/
@@ -61,9 +64,6 @@ body {
 .videos {
 	padding-top: 2%;
 }
-h1 {
-	text-transform: uppercase; letter-spacing: 5px;
-}
 #video-header, #photo-header{
 	font-size: 8vw;
 	text-align: center;
@@ -106,7 +106,7 @@ h1 {
 	transition: 0.5s;
 }
 #photo-main img:hover {
-	filter: drop-shadow(0 10px 5px #3332);
+	/*filter: drop-shadow(0 10px 5px #3332);*/
 	/*transform: scale(1.03);*/
 	border-radius: 0px;
 }
@@ -179,3 +179,21 @@ h1 {
   	text-transform: uppercase;
 }
 /*end styling for media*/
+
+/* HOME PAGE STYLING */
+pre {
+	background-color: #212529f0;
+	border-radius: 15px;
+	display: flex;
+}
+pre code {
+	display: block;
+	color: white;
+	padding: 2% 3%;
+}
+.code-heading {
+	color: cyan;
+}
+.code-heading-2{
+	color: yellow;
+}
