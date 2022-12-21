@@ -7,6 +7,9 @@
 	#carouselExampleControls {
 		width: 100%;
 	}
+	body {
+		/*min-height: 50vh;*/
+	}
 }
 
 body {
@@ -15,22 +18,27 @@ body {
 	min-height: 100vh;
 	flex-direction: column;
 
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 	/*should probably delete this above ^^*/
 }
 h1 {
 	text-transform: uppercase; letter-spacing: 5px;
 }
+h6	{
+	color: #212529af ;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 .main{
 	flex: 1;
 	/*margin-top: 7vh;*/
-	padding: 1%;
+	/*padding: 1%;*/
 	background-color: #f8f9fa
 }
 .topnav {
 	position: sticky;
 	top: 0;
-	width: 100vw;
+	/*width: 100vw;*/
 	color: white;
 	display: flex;
 	align-content: center;
@@ -47,17 +55,11 @@ h1 {
 	text-transform: uppercase;
 	transition: 0.7s ease;*/
 }
-.topnav a:hover {
-/*	color: white;
-	padding: 1%;
-	text-transform: uppercase;
-	background-color: #f8f9fa2f;*/
-}
 .topnav .icon {
   display: none;
 }
 .footer {
-	width: 100vw;
+	/*width: 100vw;*/
 	background-color: var(--bg_dark);
 	color: white;
 }
@@ -181,9 +183,11 @@ h1 {
 /*end styling for media*/
 
 /* HOME PAGE STYLING */
+.main-index {
+}
 pre {
 	background-color: #212529f0;
-	border-radius: 15px;
+	border-radius: 0.375rem;
 	display: flex;
 }
 pre code {
@@ -197,3 +201,28 @@ pre code {
 .code-heading-2{
 	color: yellow;
 }
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible_symbol*/
+.updateButton {
+	display: flex;
+	justify-content: left;
+}
+#updateButton {
+	background-color: green;
+	/*border-radius: 0px;*/
+	/*margin-bottom: 0;*/
+	text-align: left;
+	border: none;
+	filter: drop-shadow(0 0 5px #3336);
+}
+#updateButton:after {
+	content: '\002B';
+  /*color: white;*/
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+#updateButton:hover {
+	color: black;
+	background-color: whitesmoke;
+}
+/*END HOME PAGE STYLING*/
