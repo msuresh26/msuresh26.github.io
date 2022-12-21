@@ -62,10 +62,18 @@ a:active { text-decoration: none;}
 .topnav .icon {
   display: none;
 }
-.footer {
-	/*width: 100vw;*/
+.footer{
+	display: flex;
+	justify-content: left;
+	background-color: var(--bg_light);
+	color: var(--bg_dark);
+}
+.footer.dark {
 	background-color: var(--bg_dark);
-	color: white;
+	color: var(--bg_light);
+}
+.footer div {
+	opacity: 75%;
 }
 .videos {
 	padding-top: 2%;
@@ -229,5 +237,21 @@ pre code {
 	color: black;
 	background-color: whitesmoke;
 }
+.social-buttons a{
+	color: var(--bg_dark);
+	padding: 0% 2px;
+}
+.social-buttons.dark a{
+	color: var(--bg_light);
+}
+.social-buttons i {
+	opacity: 100%;
+	/*padding: 100%;*/
+}
+.social-buttons i:hover {
+	opacity: 50%;
+	transition: 0.3s;
+}
+
 /*END HOME PAGE STYLING*/
 
