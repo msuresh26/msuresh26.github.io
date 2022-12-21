@@ -46,14 +46,14 @@
 	  		</button>
 		</div>
 		<pre class="col m-3 collapse" id="collapseUpdate">
-			<code><span class="code-heading">12/20/2022</span>
+			<code><span class="code-heading">&lt; 12/20/2022 &gt;</span>
 - fixed video player sizing issues
 - added photos to gallery and added css hover effects
 - removed bootstrap gutters to resolve overflow-x issues on mobile
 - responsive navbar added, placeholder brand icon
 - optimized images to reduce loading times
 - deleted 100vw styling for footer and header to solve overflow issues
-<span class="code-heading-2">Current bugs:</span>
+<span class="code-heading-2">&lt; Current bugs: &gt;</span>
 - vimeo embed player hiding play controls on mobile
 - projects page is nonexistent (lol)
 - need to update favicons and brand icon
@@ -61,9 +61,18 @@
 		</pre>
 		<div class="m-3">
 			<div class="card">
-				<div class="card-body">
-					<h1 class="card-title">Welcome</h1>
-					<h6 class="card-subtitle">Today's date is: <span id="date"></span> </h6>
+				<div class="card-header bg-dark">
+				</div>
+				<div class="card-body m-3">
+					<div class="row">
+						<div class="col-lg-6">
+							<h1 class="card-title">Welcome</h1>
+							<p class="card-subtitle">today's date is <span id="date"></span>.</p>
+						</div>
+						<div class="col-lg-6">
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4WuOWVnAqvEQxgSRrspBgt?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+						</div>	
+					</div>
 				</div>
 			</div>	
 		</div>
