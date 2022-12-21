@@ -53,6 +53,7 @@
 - responsive navbar added, placeholder brand icon
 - optimized images to reduce loading times
 - deleted 100vw styling for footer and header to solve overflow issues
+- added card layout to home page, spotify embed player
 <span class="code-heading-2">&lt; Current bugs: &gt;</span>
 - vimeo embed player hiding play controls on mobile
 - projects page is nonexistent (lol)
@@ -65,11 +66,25 @@
 				</div>
 				<div class="card-body m-3">
 					<div class="row">
-						<div class="col-lg-6">
-							<h1 class="card-title">Welcome</h1>
-							<p class="card-subtitle">today's date is <span id="date"></span>.</p>
+						<div class="col-lg-6 my-3">
+							<h1 class="card-title">hello there.</h1>
+							<p class="card-subtitle ms-1">
+								<span class="fa fa-calendar"></span> <span id="date"></span>
+								<span class="fa fa-clock-o ms-3"></span> <span>11:21PM</span>
+							</p>
+							<div class="card my-3">
+								<div class="card-header">Hello</div>
+								<div class="card-body">
+								</div>
+							</div>
 						</div>
 						<div class="col-lg-6">
+							<!-- <div class="p-1 px-3 my-1 d-inline-block" style="border-radius:12px;text-align:center; background-color: darkcyan; vertical-align: center;">
+								<h6 style="color: white;margin: auto; font-weight: normal;">Featured Song</h6>
+							</div> -->
+							<button type="button" class="btn btn-secondary my-1" disabled style="background-color: var(--bs-card-cap-bg); color: var(--bg-dark);">
+								Current Favorite Song
+							</button>
 							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4WuOWVnAqvEQxgSRrspBgt?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 						</div>	
 					</div>
@@ -77,11 +92,10 @@
 			</div>	
 		</div>
 	
-		<h2>Heading Two</h2>
+		<!-- <h2>Heading Two</h2>
 		<h3>Heading Three</h3>
 		<h4>Heading Four</h4>
 		<h5>Heading Five</h5>
-		<!-- Paragraph -->
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor <strong>incididunt ut labore et dolore magna aliqua.</strong> Ut enim ad minim veniam,
@@ -99,7 +113,7 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			ss
-		</p>	
+		</p>	 -->
 	</main>
 	<footer class="footer">
 		<p>this is a footer</p>
