@@ -253,5 +253,18 @@ pre code {
 	transition: 0.3s;
 }
 
+.menu-card {
+	border-radius: 12px;
+	/*border-style: solid;*/
+}
+.menu-card img{
+	border-radius: inherit;
+}
+.menu-card h1 {
+	position: relative;
+	bottom: 30px;
+	left: 30px;
+}
+
 /*END HOME PAGE STYLING*/
 
