@@ -219,7 +219,7 @@ pre code {
 	justify-content: left;
 }
 #updateButton {
-	background-color: green;
+	/*background-color: green;*/
 	/*border-radius: 0px;*/
 	/*margin-bottom: 0;*/
 	text-align: left;
@@ -267,6 +267,8 @@ pre code {
 .home-menu div:hover h1 {
 	margin-left: 10px;
 	/*color: black;*/
+}
+.home-menu img {
 }
 /*END HOME PAGE STYLING*/
 
